@@ -1,6 +1,6 @@
 # AI-Powered Consolidated Variance Analysis
 
-A Python agent that automates the quarterly close consolidation workflow for public companies. It reads department-level financial submissions, consolidates P&L and Balance Sheet data across operating segments and back-office functions, identifies material variances, and generates SEC-quality variance commentary using the Claude API — including catching errors in department explanations.
+A Python agent that automates the quarterly close consolidation workflow for public companies. It reads department-level financial submissions, consolidates P&L and Balance Sheet data across operating segments and corporate functions, identifies material variances, and generates SEC-quality variance commentary using the Claude API — including catching errors in department explanations.
 
 ## What It Does
 
@@ -8,7 +8,7 @@ In a public company quarterly close, every department submits their financials w
 
 This tool automates that entire workflow:
 
-1. **Reads** department submission workbooks (3 operating segments + 4 back-office functions)
+1. **Reads** department submission workbooks (3 operating segments + 4 corporate functions)
 2. **Consolidates** across all units into a single P&L (quarterly + YTD) and Balance Sheet
 3. **Identifies** material variances using configurable thresholds (default: >5% or >$500K)
 4. **Generates** AI-written variance commentary with:
@@ -111,9 +111,9 @@ Default: variance is material if **>5% OR >$500K** (absolute). Both thresholds a
 - Cloud & Service Provider (carrier routing, 5G, data center switching, Apstra/Paragon)
 - Security & AI (SRX firewalls, threat intelligence, managed security, AI/ML)
 
-**Back Office Functions:**
+**Corporate Functions:**
 - Legal (outside counsel, litigation, IP, compliance)
-- HR (compensation, benefits, recruitment, severance)
+- Human Resources (compensation, benefits, recruitment, severance)
 - Corporate Finance (treasury, tax, audit, debt, equity, intercompany)
 - IT & Operations (cloud infrastructure, cybersecurity, facilities)
 
@@ -123,4 +123,4 @@ Active development. Core consolidation and AI commentary engine functional. Iter
 
 ## Author
 
-**Joel Stell, CPA MBA** — NYU Stern (Finance, Data Analytics, Strategy). 10+ years in consolidations, M&A accounting, and financial reporting.
+**Joel Stell, CPA MBA**
