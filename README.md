@@ -123,4 +123,4 @@ Explanations are required to cover at least **80%** of the dollar variance. The 
 
 ## Author
 
-**Joel Stell, CPA MBA**
+**Joel Stell, CPA**
